@@ -1,6 +1,6 @@
 # Mystic707
 
-# Hello, I'm Eshaal Umair 👋
+# Hello, I'm Eshaal 👋
 
 ## 👩‍💻 About Me
 I am a passionate cybersecurity student with a keen interest in machine learning, data analysis, and full-stack development. I enjoy solving complex problems and building tools that make a difference. Currently, I am diving deeper into the world of security principles and Python programming.
@@ -14,7 +14,7 @@ I am a passionate cybersecurity student with a keen interest in machine learning
 
 ## 📚 Projects
 Here are a few of my recent projects:
-- **Client-Server Investment Platform:** A platform to simulate investment management with cryptocurrency and precious metals trading.
+- **Client-Server Crypto Investment Platform:** A platform to simulate investment management with cryptocurrency and precious metals trading.
 - **Blog-Oriented Website:** A website where users can write and manage blogs, visible only to the respective author.
 
 ## 🌱 I’m Currently Learning
@@ -23,7 +23,7 @@ Here are a few of my recent projects:
 - Building more hands-on projects related to cybersecurity
 
 ## 💬 Reach Out
-- Email: [your-email@example.com]
-- LinkedIn: [Your LinkedIn Profile]
+- Email: lodhieshaa@gmail.com
+- LinkedIn: https://www.linkedin.com/in/eshaal-lodhi/
 
 Feel free to check out my repositories for more projects!
