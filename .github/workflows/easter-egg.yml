@@ -1,0 +1,12 @@
+
+</details>
+
+This way, the ASCII art is **hidden until someone clicks on it**.
+
+---
+
+### **3. ASCII Art as an Image**
+If you want more detailed ASCII art, you can generate one using an online ASCII generator (like [https://patorjk.com/software/taag](https://patorjk.com/software/taag)) and then upload it as an image:
+
+```md
+![Mystic707](https://your-image-link.com/ascii-art.png)
