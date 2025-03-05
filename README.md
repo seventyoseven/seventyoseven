@@ -1,4 +1,5 @@
-# Mystic707
+# Mystic707 
+![Mystic707](https://img.shields.io/badge/Mystic707-Secret%20Agent-purple?style=for-the-badge)
 
 # Hello, I'm Eshaal 👋
 
@@ -35,8 +36,16 @@ Here are a few of my recent projects:
 - Exploring the development of secure web applications
 - Building more hands-on projects related to cybersecurity
 
+![Mystic707](https://media.giphy.com/media/FwrYnkBVgU04auYtHE/giphy.gif?cid=ecf05e47zqfzna0k1ubwdiuzf2axum9oc94ljt9i6l0chfr8&ep=v1_gifs_search&rid=giphy.gif&ct=g)
+
+
+
 ## 💬 Reach Out
 - Email: lodhieshaa@gmail.com
 - LinkedIn: [eshaal-lodhi](https://www.linkedin.com/in/eshaal-lodhi/)
+<details>
+  <summary>🤫 Click to reveal a secret!</summary>
 
+🔮 You have unlocked the secret of Mystic707!  
+🎭 Keep your curiosity alive!  
 Feel free to check out my repositories for more projects!
