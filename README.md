@@ -46,4 +46,4 @@ Here are a few of my recent projects:
 <details>
 
 ## 🔮 Today's Fortune
-![8-Ball Fortune](./fortune-badge.svg)
+![8-Ball Fortune](./easter.egg.svg)
