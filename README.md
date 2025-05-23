@@ -44,8 +44,6 @@ Here are a few of my recent projects:
 - Email: lodhieshaa@gmail.com
 - LinkedIn: [eshaal-lodhi](https://www.linkedin.com/in/eshaal-lodhi/)
 <details>
-  <summary>🤫 Click to reveal a secret!</summary>
 
-🔮 You have unlocked the secret of Mystic707!  
-🎭 Keep your curiosity alive!  
-Feel free to check out my repositories for more projects!
+## 🔮 Today's Fortune
+![8-Ball Fortune](./fortune-badge.svg)
