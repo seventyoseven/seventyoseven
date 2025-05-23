@@ -1,0 +1,45 @@
+name: Daily Fortune Badge
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # daily at midnight UTC
+  workflow_dispatch:    # allows manual run from GitHub Actions tab
+
+jobs:
+  update-fortune:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Pick random 8-ball fortune
+      id: pick
+      run: |
+        fortunes=(
+          "It is certain"
+          "Signs point to yes"
+          "Ask again later"
+          "Don't count on it"
+          "Outlook not so good"
+          "Yes, definitely"
+          "My sources say no"
+          "Without a doubt"
+          "Better not tell you now"
+          "You may rely on it"
+        )
+        RANDOM_INDEX=$((RANDOM % ${#fortunes[@]}))
+        SELECTED="${fortunes[$RANDOM_INDEX]}"
+        SAFE_FORTUNE=$(echo "$SELECTED" | sed 's/ /%20/g')
+        echo "fortune=$SAFE_FORTUNE" >> $GITHUB_ENV
+
+    - name: Download badge
+      run: |
+        curl -s -o fortune-badge.svg "https://img.shields.io/badge/🎱%20Magic%208-Ball-${{ env.fortune }}-blue"
+
+    - name: Commit & push new badge
+      run: |
+        git config user.name "github-actions"
+        git config user.email "github-actions@github.com"
+        git add fortune-badge.svg
+        git commit -m "🔮 Daily fortune updated"
+        git push
