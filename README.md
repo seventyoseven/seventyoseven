@@ -31,7 +31,8 @@ I am a dedicated cybersecurity student with a strong foundation in programming, 
 ![Splunk](https://img.shields.io/badge/Splunk-000000?style=flat-square&logo=splunk&logoColor=white)
 ![Nmap](https://img.shields.io/badge/Nmap-4682B4?style=flat-square)
 ![Forensics](https://img.shields.io/badge/Forensic%20Tools-6A5ACD?style=flat-square)
-
+![Game Dev](https://img.shields.io/badge/Game_Dev-%23e0707e?style=flat-square&logo=gamepad&logoColor=white)
+![Itch.io](https://img.shields.io/badge/itch.io-FA5C5C?style=flat-square&logo=itchdotio&logoColor=white)
 ---
 
 ### Key Skills & Interests
