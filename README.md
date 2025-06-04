@@ -62,13 +62,6 @@ I am a dedicated cybersecurity student with a strong foundation in programming, 
 
 ---
 
-### GitHub Stats & Contribution Streak
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=seventyoseven&show_icons=true&theme=radical)
-![GitHub Streak](https://streak-stats.demolab.com/?user=seventyoseven&theme=radical)
-
----
-
 ### Now Playing on Spotify
 
 [![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=31fju3jxoivxpmse4x5zqvyg7eoi&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false)](https://github.com/kittinan/spotify-github-profile)
