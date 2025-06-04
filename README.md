@@ -18,6 +18,19 @@ I am a dedicated cybersecurity student with a strong foundation in programming, 
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
 ![Batch](https://img.shields.io/badge/Batch-2C303A?style=flat-square)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+![Wazuh](https://img.shields.io/badge/Wazuh-005573?style=flat-square&logo=wazuh&logoColor=white)
+![Unreal Engine](https://img.shields.io/badge/Unreal%20Engine-313131?style=flat-square&logo=unrealengine&logoColor=white)
+![Unity](https://img.shields.io/badge/Unity-000000?style=flat-square&logo=unity&logoColor=white)
+![Blender](https://img.shields.io/badge/Blender-F5792A?style=flat-square&logo=blender&logoColor=white)
+![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
+![Autopsy](https://img.shields.io/badge/Autopsy-19345A?style=flat-square)
+![Volatility](https://img.shields.io/badge/Volatility-4169E1?style=flat-square)
+![Kali Linux](https://img.shields.io/badge/Kali%20Linux-557C94?style=flat-square&logo=kalilinux&logoColor=white)
+![Metasploit](https://img.shields.io/badge/Metasploit-1A1A1A?style=flat-square)
+![Burp Suite](https://img.shields.io/badge/Burp%20Suite-FF6600?style=flat-square)
+![Splunk](https://img.shields.io/badge/Splunk-000000?style=flat-square&logo=splunk&logoColor=white)
+![Nmap](https://img.shields.io/badge/Nmap-4682B4?style=flat-square)
+![Forensics](https://img.shields.io/badge/Forensic%20Tools-6A5ACD?style=flat-square)
 
 ---
 
