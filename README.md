@@ -51,7 +51,7 @@ I am a dedicated cybersecurity student with a strong foundation in programming, 
 
 ### Featured Projects
 
-- **[RavenTrace](#)**  
+- **[RavenTrace](https://github.com/seventyoseven/RavenTrace)**  
   A modular red team reconnaissance and remote operations toolkit written in Python. RavenTrace integrates network scanning, host discovery, vulnerability assessment, and secure communications to support advanced red team engagements.
 
 - **Crypto Investment Platform**  
