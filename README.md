@@ -34,6 +34,10 @@ I am a dedicated cybersecurity student with a strong foundation in programming, 
 ![Forensics](https://img.shields.io/badge/Forensic%20Tools-6A5ACD?style=flat-square)
 ![Game Dev](https://img.shields.io/badge/Game_Dev-%23e0707e?style=flat-square&logo=gamepad&logoColor=white)
 ![Itch.io](https://img.shields.io/badge/itch.io-FA5C5C?style=flat-square&logo=itchdotio&logoColor=white)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white)
+![Windows](https://img.shields.io/badge/Windows-0078D6?style=flat-square&logo=windows&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 ---
 
 ### Key Skills & Interests
