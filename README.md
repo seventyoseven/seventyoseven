@@ -1,4 +1,5 @@
-# Hi, I’m Mystic707
+# Hi, I’m Mystic707  
+*You can call me Eshi.*
 
 ## Cybersecurity Student • Developer • Red Teaming Enthusiast
 
@@ -80,4 +81,3 @@ I am a dedicated cybersecurity student with a strong foundation in programming, 
 
 [![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=31fju3jxoivxpmse4x5zqvyg7eoi&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false)](https://github.com/kittinan/spotify-github-profile)
 
-![zack](https://raw.githubusercontent.com/seventyoseven/seventyoseven/refs/heads/main/.github/assets/zack.svg)
