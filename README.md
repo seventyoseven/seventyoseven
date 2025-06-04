@@ -2,6 +2,8 @@
 *You can call me Eshi.*
 
 ## Cybersecurity Student • Developer • Red Teaming Enthusiast
+![Red Team Ready](https://img.shields.io/badge/Red%20Team-ready-critical?style=flat-square)
+![Malware Hunter](https://img.shields.io/badge/Malware-Hunter-informational?style=flat-square)
 
 I am a dedicated cybersecurity student with a strong foundation in programming, system analysis, and digital design. My primary interests lie in red teaming, malware analysis, and reverse engineering. I am experienced in decrypting binary, hash, and cipher-based encryptions, and have a proven track record of dissecting complex security challenges and developing practical solutions.
 
