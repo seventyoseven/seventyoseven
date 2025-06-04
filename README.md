@@ -2,8 +2,6 @@
 *You can call me Eshi.*
 
 ## Cybersecurity Student • Developer • Red Teaming Enthusiast
-![Red Team Ready](https://img.shields.io/badge/Red%20Team-ready-critical?style=flat-square)
-![Malware Hunter](https://img.shields.io/badge/Malware-Hunter-informational?style=flat-square)
 
 I am a dedicated cybersecurity student with a strong foundation in programming, system analysis, and digital design. My primary interests lie in red teaming, malware analysis, and reverse engineering. I am experienced in decrypting binary, hash, and cipher-based encryptions, and have a proven track record of dissecting complex security challenges and developing practical solutions.
 
@@ -64,7 +62,11 @@ I am a dedicated cybersecurity student with a strong foundation in programming, 
 ---
 
 ### About Me
-
+![Gamer](https://img.shields.io/badge/Gamer-🎮-2D2D2D?style=flat-square&labelColor=6C6C6C)
+![Piano](https://img.shields.io/badge/Piano-🎹-2D2D2D?style=flat-square&labelColor=6C6C6C)
+![Painting](https://img.shields.io/badge/Painting-🎨-2D2D2D?style=flat-square&labelColor=6C6C6C)
+![Reading](https://img.shields.io/badge/Reading-📚-2D2D2D?style=flat-square&labelColor=6C6C6C)
+![Photography](https://img.shields.io/badge/Photography-📷-2D2D2D?style=flat-square&labelColor=6C6C6C)
 - I am committed to continuous learning and regularly explore new technologies and security concepts to expand my expertise.
 - Outside of cybersecurity, I am passionate about music and have a background in piano performance.
 - I have a strong interest in the gaming industry, both as a developer and as a player, and enjoy building games and contributing to collaborative projects.
