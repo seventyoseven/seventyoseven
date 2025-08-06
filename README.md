@@ -79,9 +79,6 @@ I am a dedicated cybersecurity student with a strong foundation in programming, 
 - [![Gmail](https://img.shields.io/badge/Email-lodhieshaal@gmail.com-2D2D2D?style=flat-square&logo=gmail&logoColor=white&labelColor=6C6C6C)](mailto:lodhieshaal@gmail.com)
 - [![LinkedIn](https://img.shields.io/badge/LinkedIn-eshaal--lodhi-2D2D2D?style=flat-square&logo=linkedin&logoColor=white&labelColor=6C6C6C)](https://www.linkedin.com/in/eshaal-lodhi/)
 
----
-
-“I enjoy solving complex problems and building tools that make a difference.”
 
 ---
 
