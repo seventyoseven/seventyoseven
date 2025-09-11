@@ -1,10 +1,9 @@
 <div align="center">
 
 <!-- Futuristic Header with Animated Background -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=300&section=header&text=MYSTIC707&fontSize=90&fontColor=00ff41&animation=twinkling&fontAlignY=38&desc=Cybersecurity%20•%20Developer%20•%20Red%20Team%20Specialist&descAlignY=51&descAlign=62"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=000000,000033,330066,660099,9900CC&height=300&section=header&text=MYSTIC707&fontSize=90&fontColor=8A2BE2&animation=twinkling&fontAlignY=38&desc=Cybersecurity%20•%20Developer%20•%20Red%20Team%20Specialist&descAlignY=51&descAlign=62"/>
 
 </div>
-
 <!-- Terminal-style Typing Animation -->
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=2000&pause=1000&color=00FF41&background=0D111700&center=true&vCenter=true&multiline=true&width=800&height=120&lines=%3E+Initializing+neural+pathways...;%3E+Loading+cybersecurity+protocols...;%3E+Red+team+operations+ACTIVE;%3E+Welcome+to+the+Matrix%2C+Mystic707" alt="Terminal Animation"/>
