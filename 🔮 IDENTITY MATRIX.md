@@ -310,16 +310,16 @@ Tools:
 <div align="center">
 
 <!-- Enhanced Social Links -->
-<a href="https://linkedin.com/in/yourprofile">
+<a href="https://www.linkedin.com/in/eshaal-lodhi/">
   <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117&color=00ff41"/>
 </a>
 <a href="https://twitter.com/yourhandle">
   <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white&labelColor=0d1117&color=00ff41"/>
 </a>
-<a href="mailto:your.email@domain.com">
+<a href="lodhieshaal@gmail.com">
   <img src="https://img.shields.io/badge/Encrypted_Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117&color=00ff41"/>
 </a>
-<a href="https://discord.gg/yourserver">
+<a href="kazuzu101">
   <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white&labelColor=0d1117&color=00ff41"/>
 </a>
 
