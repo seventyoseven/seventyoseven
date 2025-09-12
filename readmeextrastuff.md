@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Futuristic Header with Animated Background -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=000000,000033,330066,660099,9900CC&height=300&section=header&text=MYSTIC707&fontSize=90&fontColor=8A2BE2&animation=twinkling&fontAlignY=38&desc=Cybersecurity%20•%20Developer%20•%20Red%20Team%20Specialist&descAlignY=51&descAlign=62"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=000000,1a1a1a,333333,1a1a1a,000000&height=300&section=header&text=MYSTIC707&fontSize=90&fontColor=8A2BE2&animation=twinkling&fontAlignY=38&desc=Cybersecurity%20•%20Developer%20•%20Red%20Team%20Specialist&descAlignY=51&descAlign=62"/>
 
 </div>
 
