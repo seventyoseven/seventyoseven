@@ -360,9 +360,4 @@ Tools:
 If you can decode this, you're worthy of joining the resistance.
 Contact: mystic707@matrix.net (PGP: 0x1337DEADBEEF)
 -->
-<a href="https://tthn0.pythonanywhere.com/link?uid=31fju3jxoivxpmse4x5zqvyg7eoi">
-  <img
-    src="https://tthn0.pythonanywhere.com?uid=31fju3jxoivxpmse4x5zqvyg7eoi&theme=dark&bg_color=121212&font_color=8A2BE2"
-    alt="Current Spotify Song"
-  />
-</a>
+[![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=31fju3jxoivxpmse4x5zqvyg7eoi&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false)](https://github.com/kittinan/spotify-github-profile)
