@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Futuristic Header with Animated Background -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=000000,1a1a1a,333333,1a1a1a,000000&height=300&section=header&text=MYSTIC707&fontSize=90&fontColor=8A2BE2&animation=twinkling&fontAlignY=38&desc=Cybersecurity%20•%20Developer%20•%20Red%20Team%20Specialist&descAlignY=51&descAlign=62"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=000000&height=300&section=header&text=MYSTIC707&fontSize=90&fontColor=8A2BE2&animation=twinkling&fontAlignY=38&desc=Cybersecurity%20•%20Developer%20•%20Red%20Team%20Specialist&descAlignY=51&descAlign=62"/>
 
 </div>
 
@@ -11,7 +11,7 @@
 </div>
 
 <!-- Cyberpunk Divider -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=000000,000033,330066,660099,9900CC&height=4&section=header&reversal=false&textBg=false"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=333333,444444,555555,444444,333333&height=4&section=header&reversal=false&textBg=false"/>
 
 ## 🔮 **IDENTITY MATRIX**
 
@@ -43,7 +43,7 @@
 </div>
 
 <!-- Matrix Code Divider -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=000000,000033,330066,660099,9900CC&height=2&section=header"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=333333,444444,555555,444444,333333&height=2&section=header"/>
 
 ## ⚡ **NEURAL NETWORK ARCHITECTURE**
 
@@ -220,7 +220,7 @@ Tools:
 </div>
 
 <!-- Project Showcase -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=000000,000033,330066,660099,9900CC&height=2&section=header"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=333333,444444,555555,444444,333333&height=2&section=header"/>
 
 ## 🚀 **CLASSIFIED PROJECTS**
 
@@ -303,23 +303,23 @@ Tools:
 </div>
 
 <!-- Neural Network Connections -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=000000,000033,330066,660099,9900CC&height=2&section=header"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=333333,444444,555555,444444,333333&height=2&section=header"/>
 
 ## 🌐 **NEURAL NETWORK CONNECTIONS**
 
 <div align="center">
 
 <!-- Enhanced Social Links -->
-<a href="https://linkedin.com/in/yourprofile">
+<a href="https://www.linkedin.com/in/eshaal-lodhi/">
   <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117&color=8A2BE2"/>
 </a>
-<a href="https://twitter.com/yourhandle">
+<a href="#">
   <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white&labelColor=0d1117&color=8A2BE2"/>
 </a>
-<a href="mailto:your.email@domain.com">
+<a href="mailto:lodhieshaal@gmail.com">
   <img src="https://img.shields.io/badge/Encrypted_Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117&color=8A2BE2"/>
 </a>
-<a href="https://discord.gg/yourserver">
+<a href="#">
   <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white&labelColor=0d1117&color=8A2BE2"/>
 </a>
 
@@ -342,7 +342,7 @@ Tools:
 
 <!-- Animated Footer -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=000000,000033,330066,660099,9900CC&height=200&section=footer&animation=twinkling&text=STAY+CURIOUS+•+STAY+SECURE&fontSize=30&fontcolor=8A2BE2&fontAlignY=70"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=333333,444444,555555,444444,333333&height=200&section=footer&animation=twinkling&text=STAY+CURIOUS+•+STAY+SECURE&fontSize=30&fontcolor=8A2BE2&fontAlignY=70"/>
 </div>
 
 ---
