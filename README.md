@@ -258,7 +258,6 @@ Tools:
 <!-- Skills Matrix -->
 <div align="center">
 
-###  **COGNITIVE ABILITIES MATRIX**
 
 <table>
 <tr>
