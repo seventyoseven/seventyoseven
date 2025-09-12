@@ -13,19 +13,18 @@
 <!-- Cyberpunk Divider -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=333333,444444,555555,444444,333333&height=4&section=header&reversal=false&textBg=false"/>
 
-## 🔮 **IDENTITY MATRIX**
+##  **IDENTITY MATRIX**
 
 <div align="center">
 
 ```ascii
 ╔══════════════════════════════════════════════════════════════════════════════╗
-║                           CLASSIFIED DOSSIER                                ║
+║                           CLASSIFIED DOSSIER                                 ║
 ╠══════════════════════════════════════════════════════════════════════════════╣
-║  CODENAME: Mystic707          │  ALIAS: Eshi                                ║
-║  STATUS: [●] ACTIVE           │  CLEARANCE: [████████] CLASSIFIED          ║
-║  LOCATION: [REDACTED]         │  LAST SEEN: Infiltrating digital realms    ║
-║  SPECIALIZATION: Cyber Warfare & Digital Forensics                          ║
-║  THREAT LEVEL: ████████████████████████████████████████████ [MAXIMUM]       ║
+║  CODENAME: Mystic707          │  ALIAS: Eshi                                 ║
+║  STATUS: [●] ACTIVE           │                                              ║
+║  LOCATION: [REDACTED]         │                                              ║
+║  SPECIALIZATION: Cyber Warfare & Digital Forensics                           ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 ```
 
@@ -45,7 +44,7 @@
 <!-- Matrix Code Divider -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=333333,444444,555555,444444,333333&height=2&section=header"/>
 
-## ⚡ **NEURAL NETWORK ARCHITECTURE**
+##  **NEURAL NETWORK ARCHITECTURE**
 
 <div align="center">
 
@@ -135,7 +134,7 @@
 <!-- Neon Divider -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=000000,000033,330066,660099,9900CC&height=4&section=header"/>
 
-## 🎯 **OPERATIONAL DIRECTIVES**
+##  **OPERATIONAL DIRECTIVES**
 
 <div align="center">
 
@@ -222,7 +221,7 @@ Tools:
 <!-- Project Showcase -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=333333,444444,555555,444444,333333&height=2&section=header"/>
 
-## 🚀 **CLASSIFIED PROJECTS**
+##  **CLASSIFIED PROJECTS**
 
 <div align="center">
 
@@ -236,21 +235,21 @@ Tools:
 ```ascii
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │  🔥 RAVENTRACE - Advanced Red Team Reconnaissance Toolkit                  │
-│  ├─ 🎯 Multi-threaded Network Discovery & Port Scanning                    │
-│  ├─ 🕵️ OSINT Automation & Social Engineering Modules                       │
-│  ├─ 💥 Vulnerability Assessment & Exploitation Framework                   │
-│  ├─ 🔐 Encrypted C2 Communications & Payload Delivery                      │
-│  ├─ 🛡️ Anti-Detection & Evasion Techniques                                 │
-│  └─ 📊 Real-time Reporting & Intelligence Gathering                        │
+│  ├─  Multi-threaded Network Discovery & Port Scanning                    │
+│  ├─  OSINT Automation & Social Engineering Modules                       │
+│  ├─  Vulnerability Assessment & Exploitation Framework                   │
+│  ├─  Encrypted C2 Communications & Payload Delivery                      │
+│  ├─  Anti-Detection & Evasion Techniques                                 │
+│  └─  Real-time Reporting & Intelligence Gathering                        │
 └─────────────────────────────────────────────────────────────────────────────┘
 
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │  💰 CRYPTO INVESTMENT PLATFORM - Real-time Trading Dashboard               │
-│  ├─ 📈 Live Price Feeds & Market Analysis                                  │
-│  ├─ 🤖 Automated Trading Algorithms                                         │
-│  ├─ 📊 Portfolio Management & Risk Assessment                              │
-│  ├─ 🔔 Smart Alerts & Notification System                                  │
-│  └─ 🔒 Secure Wallet Integration & Multi-factor Authentication             │
+│  ├─  Live Price Feeds & Market Analysis                                  │
+│  ├─  Automated Trading Algorithms                                         │
+│  ├─  Portfolio Management & Risk Assessment                              │
+│  ├─  Smart Alerts & Notification System                                  │
+│  └─  Secure Wallet Integration & Multi-factor Authentication             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -259,14 +258,14 @@ Tools:
 <!-- Skills Matrix -->
 <div align="center">
 
-### 🧠 **COGNITIVE ABILITIES MATRIX**
+###  **COGNITIVE ABILITIES MATRIX**
 
 <table>
 <tr>
 <td align="center"><b>🔴 Offensive Security</b></td>
 <td align="center"><b>🔵 Defensive Security</b></td>
-<td align="center"><b>💻 Development</b></td>
-<td align="center"><b>🎮 Game Development</b></td>
+<td align="center"><b> Development</b></td>
+<td align="center"><b> Game Development</b></td>
 </tr>
 <tr>
 <td align="center">
@@ -305,7 +304,7 @@ Tools:
 <!-- Neural Network Connections -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=333333,444444,555555,444444,333333&height=2&section=header"/>
 
-## 🌐 **NEURAL NETWORK CONNECTIONS**
+##  **FOR CONNECTIONS**
 
 <div align="center">
 
@@ -334,10 +333,14 @@ Tools:
 <!-- Real-time Status -->
 <div align="center">
 
-### 📡 **REAL-TIME STATUS**
+###  **REAL-TIME STATUS**
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&duration=3000&pause=1000&color=8A2BE2&center=true&vCenter=true&multiline=true&width=800&height=150&lines=●+Neural+Networks%3A+ONLINE++++++++++●+Threat+Detection%3A+ACTIVE;●+Encryption+Protocols%3A+ENABLED+++●+Learning+Algorithms%3A+PROCESSING;●+Firewall+Status%3A+MAXIMUM++++++++●+Code+Compilation%3A+IN+PROGRESS;●+VPN+Tunnels%3A+7+ACTIVE++++++++++++●+Coffee+Levels%3A+CRITICALLY+LOW" alt="System Status"/>
 
+</div>
+
+<div align="center">
+[![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=31fju3jxoivxpmse4x5zqvyg7eoi&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false)](https://github.com/kittinan/spotify-github-profile)
 </div>
 
 <!-- Animated Footer -->
