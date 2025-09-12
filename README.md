@@ -262,42 +262,12 @@ Tools:
 
 <table>
 <tr>
-<td align="center"><b>🔴 Offensive Security</b></td>
-<td align="center"><b>🔵 Defensive Security</b></td>
+<td align="center"><b> Offensive Security</b></td>
+<td align="center"><b> Defensive Security</b></td>
 <td align="center"><b> Development</b></td>
 <td align="center"><b> Game Development</b></td>
 </tr>
-<tr>
-<td align="center">
-<img src="https://progress-bar.dev/95/?scale=100&title=Penetration%20Testing&width=200&color=8A2BE2&suffix=%"/>
-<br>
-<img src="https://progress-bar.dev/90/?scale=100&title=Social%20Engineering&width=200&color=8A2BE2&suffix=%"/>
-<br>
-<img src="https://progress-bar.dev/88/?scale=100&title=Exploit%20Development&width=200&color=8A2BE2&suffix=%"/>
-</td>
-<td align="center">
-<img src="https://progress-bar.dev/92/?scale=100&title=Malware%20Analysis&width=200&color=8A2BE2&suffix=%"/>
-<br>
-<img src="https://progress-bar.dev/87/?scale=100&title=Digital%20Forensics&width=200&color=8A2BE2&suffix=%"/>
-<br>
-<img src="https://progress-bar.dev/85/?scale=100&title=Incident%20Response&width=200&color=8A2BE2&suffix=%"/>
-</td>
-<td align="center">
-<img src="https://progress-bar.dev/93/?scale=100&title=Python%20Development&width=200&color=8A2BE2&suffix=%"/>
-<br>
-<img src="https://progress-bar.dev/89/?scale=100&title=Full%20Stack%20Web&width=200&color=8A2BE2&suffix=%"/>
-<br>
-<img src="https://progress-bar.dev/86/?scale=100&title=System%20Programming&width=200&color=8A2BE2&suffix=%"/>
-</td>
-<td align="center">
-<img src="https://progress-bar.dev/84/?scale=100&title=Unreal%20Engine&width=200&color=8A2BE2&suffix=%"/>
-<br>
-<img src="https://progress-bar.dev/82/?scale=100&title=Unity%20Development&width=200&color=8A2BE2&suffix=%"/>
-<br>
-<img src="https://progress-bar.dev/80/?scale=100&title=3D%20Modeling&width=200&color=8A2BE2&suffix=%"/>
-</td>
-</tr>
-</table>
+
 
 </div>
 
