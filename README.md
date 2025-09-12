@@ -299,7 +299,7 @@ __________________________
 <br><br>
 
 <!-- Advanced Visitor Counter -->
-<img src="https://komarev.com/ghpvc/?username=seventyoseven&label=NEURAL+CONNECTIONS&color=8A2BE2&style=for-the-badge&labelColor=0d1117" alt="Profile Views"/>
+<img src="https://komarev.com/ghpvc/?username=seventyoseven&label=VIEWERS&color=8A2BE2&style=for-the-badge&labelColor=0d1117" alt="Profile Views"/>
 <img src="https://img.shields.io/github/followers/seventyoseven?label=FOLLOWERS&style=for-the-badge&color=8A2BE2&labelColor=0d1117" alt="Followers"/>
 
 </div>
