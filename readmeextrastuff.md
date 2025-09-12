@@ -7,7 +7,7 @@
 
 <!-- Terminal-style Typing Animation -->
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=2000&pause=1000&color=8A2BE2&background=0D111700&center=true&vCenter=true&multiline=true&width=800&height=120&lines=%3E+Initializing+neural+pathways...;%3E+Loading+cybersecurity+protocols...;%3E+Red+team+operations+ACTIVE;%3E+Welcome+to+the+Matrix%2C+Mystic707" alt="Terminal Animation"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=2000&pause=1000&color=8A2BE2&background=0D111700&center=true&vCenter=true&multiline=true&width=800&height=120&lines=%3E+Initializing+neural+pathways...;%3E+Loading+cybersecurity+protocols...;%3E+Welcome+to+the+Matrix%2C+Mystic707" alt="Terminal Animation"/>
 </div>
 
 <!-- Cyberpunk Divider -->
