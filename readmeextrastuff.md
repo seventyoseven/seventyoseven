@@ -4,13 +4,14 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=000000,000033,330066,660099,9900CC&height=300&section=header&text=MYSTIC707&fontSize=90&fontColor=8A2BE2&animation=twinkling&fontAlignY=38&desc=Cybersecurity%20•%20Developer%20•%20Red%20Team%20Specialist&descAlignY=51&descAlign=62"/>
 
 </div>
+
 <!-- Terminal-style Typing Animation -->
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=2000&pause=1000&color=00FF41&background=0D111700&center=true&vCenter=true&multiline=true&width=800&height=120&lines=%3E+Initializing+neural+pathways...;%3E+Loading+cybersecurity+protocols...;%3E+Red+team+operations+ACTIVE;%3E+Welcome+to+the+Matrix%2C+Mystic707" alt="Terminal Animation"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=2000&pause=1000&color=8A2BE2&background=0D111700&center=true&vCenter=true&multiline=true&width=800&height=120&lines=%3E+Initializing+neural+pathways...;%3E+Loading+cybersecurity+protocols...;%3E+Red+team+operations+ACTIVE;%3E+Welcome+to+the+Matrix%2C+Mystic707" alt="Terminal Animation"/>
 </div>
 
 <!-- Cyberpunk Divider -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,2,5,30&height=4&section=header&reversal=false&textBg=false"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=000000,000033,330066,660099,9900CC&height=4&section=header&reversal=false&textBg=false"/>
 
 ## 🔮 **IDENTITY MATRIX**
 
@@ -33,16 +34,16 @@
 <!-- Advanced Stats with Neon Glow -->
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=seventyoseven&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=00ff41&icon_color=00ff41&text_color=ffffff&ring_color=00ff41&custom_title=SYSTEM%20DIAGNOSTICS" alt="System Stats"/>
+<img src="https://github-readme-stats.vercel.app/api?username=seventyoseven&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=8A2BE2&icon_color=8A2BE2&text_color=ffffff&ring_color=8A2BE2&custom_title=SYSTEM%20DIAGNOSTICS" alt="System Stats"/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=seventyoseven&theme=chartreuse-dark&hide_border=true&background=0d1117&stroke=00ff41&ring=00ff41&fire=ff6b35&currStreakLabel=00ff41&sideLabels=ffffff&dates=ffffff" alt="Streak Stats"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=seventyoseven&theme=dark&hide_border=true&background=0d1117&stroke=8A2BE2&ring=8A2BE2&fire=9933FF&currStreakLabel=8A2BE2&sideLabels=ffffff&dates=ffffff" alt="Streak Stats"/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=seventyoseven&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=00ff41&text_color=ffffff&custom_title=CODE%20ARSENAL" alt="Languages"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=seventyoseven&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=8A2BE2&text_color=ffffff&custom_title=CODE%20ARSENAL" alt="Languages"/>
 
 </div>
 
 <!-- Matrix Code Divider -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,2,5,30&height=2&section=header"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=000000,000033,330066,660099,9900CC&height=2&section=header"/>
 
 ## ⚡ **NEURAL NETWORK ARCHITECTURE**
 
@@ -132,7 +133,7 @@
 </div>
 
 <!-- Neon Divider -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,2,5,30&height=4&section=header"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=000000,000033,330066,660099,9900CC&height=4&section=header"/>
 
 ## 🎯 **OPERATIONAL DIRECTIVES**
 
@@ -215,11 +216,11 @@ Tools:
 
 <!-- Activity Visualization -->
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=seventyoseven&theme=react-dark&bg_color=0d1117&color=00ff41&line=00ff41&point=ffffff&area=true&hide_border=true&custom_title=NEURAL%20ACTIVITY%20PATTERNS" alt="Activity Graph"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=seventyoseven&theme=react-dark&bg_color=0d1117&color=8A2BE2&line=8A2BE2&point=ffffff&area=true&hide_border=true&custom_title=NEURAL%20ACTIVITY%20PATTERNS" alt="Activity Graph"/>
 </div>
 
 <!-- Project Showcase -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,2,5,30&height=2&section=header"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=000000,000033,330066,660099,9900CC&height=2&section=header"/>
 
 ## 🚀 **CLASSIFIED PROJECTS**
 
@@ -227,7 +228,7 @@ Tools:
 
 <!-- Enhanced Project Cards -->
 <a href="https://github.com/seventyoseven/RavenTrace">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=seventyoseven&repo=RavenTrace&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=00ff41&icon_color=00ff41&text_color=ffffff&description_lines_count=3" alt="RavenTrace"/>
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=seventyoseven&repo=theme=dark&hide_border=true&bg_color=0d1117&title_color=8A2BE2&icon_color=8A2BE2&text_color=ffffff&description_lines_count=3" alt="RavenTrace"/>
 </a>
 
 <br><br>
@@ -269,32 +270,32 @@ Tools:
 </tr>
 <tr>
 <td align="center">
-<img src="https://progress-bar.dev/95/?scale=100&title=Penetration%20Testing&width=200&color=00ff41&suffix=%"/>
+<img src="https://progress-bar.dev/95/?scale=100&title=Penetration%20Testing&width=200&color=8A2BE2&suffix=%"/>
 <br>
-<img src="https://progress-bar.dev/90/?scale=100&title=Social%20Engineering&width=200&color=00ff41&suffix=%"/>
+<img src="https://progress-bar.dev/90/?scale=100&title=Social%20Engineering&width=200&color=8A2BE2&suffix=%"/>
 <br>
-<img src="https://progress-bar.dev/88/?scale=100&title=Exploit%20Development&width=200&color=00ff41&suffix=%"/>
+<img src="https://progress-bar.dev/88/?scale=100&title=Exploit%20Development&width=200&color=8A2BE2&suffix=%"/>
 </td>
 <td align="center">
-<img src="https://progress-bar.dev/92/?scale=100&title=Malware%20Analysis&width=200&color=00ff41&suffix=%"/>
+<img src="https://progress-bar.dev/92/?scale=100&title=Malware%20Analysis&width=200&color=8A2BE2&suffix=%"/>
 <br>
-<img src="https://progress-bar.dev/87/?scale=100&title=Digital%20Forensics&width=200&color=00ff41&suffix=%"/>
+<img src="https://progress-bar.dev/87/?scale=100&title=Digital%20Forensics&width=200&color=8A2BE2&suffix=%"/>
 <br>
-<img src="https://progress-bar.dev/85/?scale=100&title=Incident%20Response&width=200&color=00ff41&suffix=%"/>
+<img src="https://progress-bar.dev/85/?scale=100&title=Incident%20Response&width=200&color=8A2BE2&suffix=%"/>
 </td>
 <td align="center">
-<img src="https://progress-bar.dev/93/?scale=100&title=Python%20Development&width=200&color=00ff41&suffix=%"/>
+<img src="https://progress-bar.dev/93/?scale=100&title=Python%20Development&width=200&color=8A2BE2&suffix=%"/>
 <br>
-<img src="https://progress-bar.dev/89/?scale=100&title=Full%20Stack%20Web&width=200&color=00ff41&suffix=%"/>
+<img src="https://progress-bar.dev/89/?scale=100&title=Full%20Stack%20Web&width=200&color=8A2BE2&suffix=%"/>
 <br>
-<img src="https://progress-bar.dev/86/?scale=100&title=System%20Programming&width=200&color=00ff41&suffix=%"/>
+<img src="https://progress-bar.dev/86/?scale=100&title=System%20Programming&width=200&color=8A2BE2&suffix=%"/>
 </td>
 <td align="center">
-<img src="https://progress-bar.dev/84/?scale=100&title=Unreal%20Engine&width=200&color=00ff41&suffix=%"/>
+<img src="https://progress-bar.dev/84/?scale=100&title=Unreal%20Engine&width=200&color=8A2BE2&suffix=%"/>
 <br>
-<img src="https://progress-bar.dev/82/?scale=100&title=Unity%20Development&width=200&color=00ff41&suffix=%"/>
+<img src="https://progress-bar.dev/82/?scale=100&title=Unity%20Development&width=200&color=8A2BE2&suffix=%"/>
 <br>
-<img src="https://progress-bar.dev/80/?scale=100&title=3D%20Modeling&width=200&color=00ff41&suffix=%"/>
+<img src="https://progress-bar.dev/80/?scale=100&title=3D%20Modeling&width=200&color=8A2BE2&suffix=%"/>
 </td>
 </tr>
 </table>
@@ -302,31 +303,31 @@ Tools:
 </div>
 
 <!-- Neural Network Connections -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,2,5,30&height=2&section=header"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=000000,000033,330066,660099,9900CC&height=2&section=header"/>
 
 ## 🌐 **NEURAL NETWORK CONNECTIONS**
 
 <div align="center">
 
 <!-- Enhanced Social Links -->
-<a href="https://www.linkedin.com/in/eshaal-lodhi/">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117&color=00ff41"/>
+<a href="https://linkedin.com/in/yourprofile">
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117&color=8A2BE2"/>
 </a>
 <a href="https://twitter.com/yourhandle">
-  <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white&labelColor=0d1117&color=00ff41"/>
+  <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white&labelColor=0d1117&color=8A2BE2"/>
 </a>
-<a href="lodhieshaal@gmail.com">
-  <img src="https://img.shields.io/badge/Encrypted_Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117&color=00ff41"/>
+<a href="mailto:your.email@domain.com">
+  <img src="https://img.shields.io/badge/Encrypted_Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117&color=8A2BE2"/>
 </a>
-<a href="kazuzu101">
-  <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white&labelColor=0d1117&color=00ff41"/>
+<a href="https://discord.gg/yourserver">
+  <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white&labelColor=0d1117&color=8A2BE2"/>
 </a>
 
 <br><br>
 
 <!-- Advanced Visitor Counter -->
-<img src="https://komarev.com/ghpvc/?username=seventyoseven&label=NEURAL+CONNECTIONS&color=00ff41&style=for-the-badge&labelColor=0d1117" alt="Profile Views"/>
-<img src="https://img.shields.io/github/followers/seventyoseven?label=FOLLOWERS&style=for-the-badge&color=00ff41&labelColor=0d1117" alt="Followers"/>
+<img src="https://komarev.com/ghpvc/?username=seventyoseven&label=NEURAL+CONNECTIONS&color=8A2BE2&style=for-the-badge&labelColor=0d1117" alt="Profile Views"/>
+<img src="https://img.shields.io/github/followers/seventyoseven?label=FOLLOWERS&style=for-the-badge&color=8A2BE2&labelColor=0d1117" alt="Followers"/>
 
 </div>
 
@@ -335,19 +336,19 @@ Tools:
 
 ### 📡 **REAL-TIME STATUS**
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&multiline=true&width=800&height=150&lines=●+Neural+Networks%3A+ONLINE++++++++++●+Threat+Detection%3A+ACTIVE;●+Encryption+Protocols%3A+ENABLED+++●+Learning+Algorithms%3A+PROCESSING;●+Firewall+Status%3A+MAXIMUM++++++++●+Code+Compilation%3A+IN+PROGRESS;●+VPN+Tunnels%3A+7+ACTIVE++++++++++++●+Coffee+Levels%3A+CRITICALLY+LOW" alt="System Status"/>
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&duration=3000&pause=1000&color=8A2BE2&center=true&vCenter=true&multiline=true&width=800&height=150&lines=●+Neural+Networks%3A+ONLINE++++++++++●+Threat+Detection%3A+ACTIVE;●+Encryption+Protocols%3A+ENABLED+++●+Learning+Algorithms%3A+PROCESSING;●+Firewall+Status%3A+MAXIMUM++++++++●+Code+Compilation%3A+IN+PROGRESS;●+VPN+Tunnels%3A+7+ACTIVE++++++++++++●+Coffee+Levels%3A+CRITICALLY+LOW" alt="System Status"/>
 
 </div>
 
 <!-- Animated Footer -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=200&section=footer&animation=twinkling&text=STAY+CURIOUS+•+STAY+SECURE&fontSize=30&fontColor=00ff41&fontAlignY=70"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=000000,000033,330066,660099,9900CC&height=200&section=footer&animation=twinkling&text=STAY+CURIOUS+•+STAY+SECURE&fontSize=30&fontcolor=8A2BE2&fontAlignY=70"/>
 </div>
 
 ---
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=4000&pause=2000&color=00FF41&center=true&vCenter=true&width=600&lines=The+Matrix+has+you...;Follow+the+white+rabbit.;There+is+no+spoon.;Welcome+to+the+real+world.;Stay+curious.+Stay+secure." alt="Matrix Quotes"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=4000&pause=2000&color=8A2BE2&center=true&vCenter=true&width=600&lines=The+Matrix+has+you...;Follow+the+white+rabbit.;There+is+no+spoon.;Welcome+to+the+real+world.;Stay+curious.+Stay+secure." alt="Matrix Quotes"/>
 </div>
 
 <!-- Hidden Easter Egg -->
@@ -356,4 +357,3 @@ Tools:
 If you can decode this, you're worthy of joining the resistance.
 Contact: mystic707@matrix.net (PGP: 0x1337DEADBEEF)
 -->
-
