@@ -258,8 +258,19 @@ Tools:
 <!-- Skills Matrix -->
 <div align="center">
 
+### **Skills**
+__________________________
+| Game Dev | Development | 
+| :---:    |    :---:    |
+| Blender  | Website     |
+| Unreal   | Rust        |
+| Unity    | OS          |
+| C++      | Python      |
+| C        | Java        |
+| HTML     | CSS         |
+--------------------------
 
-
+</div>
 
 
 </div>
