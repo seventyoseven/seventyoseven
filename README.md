@@ -259,13 +259,7 @@ Tools:
 <div align="center">
 
 
-<table>
-<tr>
-<td align="center"><b> Offensive Security</b></td>
-<td align="center"><b> Defensive Security</b></td>
-<td align="center"><b> Development</b></td>
-<td align="center"><b> Game Development</b></td>
-</tr>
+
 
 
 </div>
@@ -308,6 +302,8 @@ Tools:
 
 </div>
 
+[![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=31fju3jxoivxpmse4x5zqvyg7eoi&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false)](https://github.com/kittinan/spotify-github-profile)
+
 <!-- Animated Footer -->
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=333333,444444,555555,444444,333333&height=200&section=footer&animation=twinkling&text=STAY+CURIOUS+•+STAY+SECURE&fontSize=30&fontcolor=8A2BE2&fontAlignY=70"/>
@@ -325,4 +321,3 @@ Tools:
 If you can decode this, you're worthy of joining the resistance.
 Contact: mystic707@matrix.net (PGP: 0x1337DEADBEEF)
 -->
-[![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=31fju3jxoivxpmse4x5zqvyg7eoi&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false)](https://github.com/kittinan/spotify-github-profile)
