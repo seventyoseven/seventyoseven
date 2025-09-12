@@ -227,7 +227,7 @@ Tools:
 
 <!-- Enhanced Project Cards -->
 <a href="https://github.com/seventyoseven/RavenTrace">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=seventyoseven&repo=theme=dark&hide_border=true&bg_color=0d1117&title_color=8A2BE2&icon_color=8A2BE2&text_color=ffffff&description_lines_count=3" alt="RavenTrace"/>
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=seventyoseven&repo=RavenTrace&theme=dark&hide_border=true&bg_color=0d1117&title_color=8A2BE2&icon_color=8A2BE2&text_color=ffffff&description_lines_count=3" alt="RavenTrace"/>
 </a>
 
 <br><br>
