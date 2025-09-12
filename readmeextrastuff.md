@@ -360,3 +360,9 @@ Tools:
 If you can decode this, you're worthy of joining the resistance.
 Contact: mystic707@matrix.net (PGP: 0x1337DEADBEEF)
 -->
+<a href="https://tthn0.pythonanywhere.com/link?uid=31fju3jxoivxpmse4x5zqvyg7eoi">
+  <img
+    src="https://tthn0.pythonanywhere.com?uid=31fju3jxoivxpmse4x5zqvyg7eoi&theme=dark&bg_color=121212&font_color=8A2BE2"
+    alt="Current Spotify Song"
+  />
+</a>
