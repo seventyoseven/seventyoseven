@@ -1,3 +1,53 @@
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0015,50:1a0033,100:0a0015&height=280&section=header&text=MYSTIC707&fontSize=80&fontColor=b388ff&animation=twinkling&fontAlignY=40&desc=Cybersecurity%20%E2%80%A2%20Developer%20%E2%80%A2%20Red%20Team%20Specialist&descSize=18&descAlignY=58&descAlign=50"/>
+
+</div>
+
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=15&duration=3000&pause=800&color=7C3AED&center=true&vCenter=true&width=600&lines=Penetration+Tester.+Forensics+Analyst.+Builder.;%22The+labyrinth+always+has+a+center.%22;Red+%26+Blue+%E2%80%94+I+speak+both+dialects.;Currently%3A+Breaking+things+to+build+better+ones." />
+
+</div>
+
+<br>
+
+<div align="center">
+
+*"I am the guide between thresholds — what is known and what remains hidden."*
+<br>
+**― Hermes Trismegistus**
+
+</div>
+
+<br>
+
+---
+
+<br>
+
+## `whoami`
+
+<img align="right" width="340" src="https://github-readme-stats.vercel.app/api?username=seventyoseven&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d0d1a&title_color=b388ff&icon_color=7C3AED&text_color=9ca3af&ring_color=6d28d9&custom_title=System+Diagnostics&rank_icon=github"/>
+
+```yaml
+codename   : Mystic707
+alias      : Eshi
+location   : [REDACTED]
+status     : ACTIVE
+
+specialization:
+  - Penetration Testing & Red Team Ops
+  - Digital Forensics & Incident Response
+  - Malware Analysis & Reverse Engineering
+  - Secure Software Development
+
+currently:
+  - Building  : RavenTrace toolkit
+  - Studying  : Advanced exploit development
+  - Reading   : The Art of Intrusion — Kevin Mitnick
+```
+
 <br clear="right"/>
 
 <br>
