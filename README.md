@@ -65,7 +65,13 @@ active_ops:
 
 **— Languages —**
 
-<img src="https://skillicons.dev/icons?i=python,rust,c,cpp,java,bash,react,html,css&theme=dark&perline=9"/>
+<img src="https://skillicons.dev/icons?i=python,rust,c,cpp,java,go,javascript,typescript,bash,powershell,lua,asm&theme=dark&perline=12"/>
+
+<br><br>
+
+**— Web & Frameworks —**
+
+<img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,html,css,tailwind,flask,fastapi&theme=dark&perline=8"/>
 
 <br><br>
 
@@ -77,6 +83,8 @@ active_ops:
 ![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=flat-square&logoColor=white)
 ![Nmap](https://img.shields.io/badge/Nmap-4A90D9?style=flat-square&logoColor=white)
 ![RavenTrace](https://img.shields.io/badge/RavenTrace-7c3aed?style=flat-square&logoColor=white)
+![OSINT Framework](https://img.shields.io/badge/OSINT_Framework-4b0082?style=flat-square&logoColor=white)
+![Impacket](https://img.shields.io/badge/Impacket-1a1a2e?style=flat-square&logoColor=white)
 
 **— Defense —**
 
@@ -85,12 +93,12 @@ active_ops:
 ![Volatility](https://img.shields.io/badge/Volatility-6d28d9?style=flat-square&logoColor=white)
 ![Autopsy](https://img.shields.io/badge/Autopsy-8B0000?style=flat-square&logoColor=white)
 ![Wazuh](https://img.shields.io/badge/Wazuh-005571?style=flat-square&logoColor=white)
+![Zeek](https://img.shields.io/badge/Zeek-005f87?style=flat-square&logoColor=white)
+![YARA](https://img.shields.io/badge/YARA-222222?style=flat-square&logoColor=white)
 
-**— Creative —**
+**— Infrastructure & Creative —**
 
-![Unreal Engine](https://img.shields.io/badge/Unreal_Engine-0E1128?style=flat-square&logo=unreal-engine&logoColor=white)
-![Unity](https://img.shields.io/badge/Unity-222222?style=flat-square&logo=unity&logoColor=white)
-![Blender](https://img.shields.io/badge/Blender-F5792A?style=flat-square&logo=blender&logoColor=white)
+<img src="https://skillicons.dev/icons?i=linux,docker,git,aws,postgres,mongodb,unreal,blender&theme=dark&perline=8"/>
 
 </div>
 
@@ -226,29 +234,27 @@ active_ops:
 
 ---
 
-## `$ finger eshi`
+## `$ establish --connection`
 
 <br>
 
 <div align="center">
 
-<a href="https://www.linkedin.com/in/eshaal-lodhi/">
-  <img src="https://img.shields.io/badge/LinkedIn-06000f?style=for-the-badge&logo=linkedin&logoColor=c4b5fd"/>
-</a>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-c4b5fd?style=for-the-badge&logo=linkedin&logoColor=c4b5fd&color=1a003a&labelColor=0d0026)](https://www.linkedin.com/in/eshaal-lodhi/)
 &nbsp;
-<a href="mailto:lodhieshaal@gmail.com">
-  <img src="https://img.shields.io/badge/Email-06000f?style=for-the-badge&logo=gmail&logoColor=c4b5fd"/>
-</a>
+[![Email](https://img.shields.io/badge/Email-Reach%20Out-c4b5fd?style=for-the-badge&logo=gmail&logoColor=c4b5fd&color=1a003a&labelColor=0d0026)](mailto:lodhieshaal@gmail.com)
 &nbsp;
-<a href="#">
-  <img src="https://img.shields.io/badge/Discord-06000f?style=for-the-badge&logo=discord&logoColor=c4b5fd"/>
-</a>
+[![Discord](https://img.shields.io/badge/Discord-Join-c4b5fd?style=for-the-badge&logo=discord&logoColor=c4b5fd&color=1a003a&labelColor=0d0026)](#)
 &nbsp;
-<a href="#">
-  <img src="https://img.shields.io/badge/Twitter-06000f?style=for-the-badge&logo=x&logoColor=c4b5fd"/>
-</a>
+[![Twitter](https://img.shields.io/badge/Twitter-Follow-c4b5fd?style=for-the-badge&logo=x&logoColor=c4b5fd&color=1a003a&labelColor=0d0026)](#)
 
-<br><br>
+<br>
+
+```
+PGP · 0x1337DEADBEEF     lodhieshaal@gmail.com
+```
+
+<br>
 
 <img src="https://komarev.com/ghpvc/?username=seventyoseven&label=Visitors&color=7c3aed&style=flat-square&labelColor=06000f"/>
 &nbsp;&nbsp;
