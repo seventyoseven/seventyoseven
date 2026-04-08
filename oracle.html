@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The Conservatory — Mystic707</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Crimson+Pro:ital,wght@0,300;0,400;1,300;1,400&family=JetBrains+Mono:wght@300;400&display=swap" rel="stylesheet"/>
+  <style>
+    :root {
+      --ink:       #0e0a06;
+      --mahogany:  #1a0f06;
+      --walnut:    #2c1a0e;
+      --cedar:     #3d2514;
+      --rosewood:  #5c3420;
+      --amber:     #c8923a;
+      --gold:      #d4a843;
+      --pale-gold: #e8c97a;
+      --cream:     #f0e6c8;
+      --parchment: #d9c9a3;
+      --mute:      #7a6040;
+      --fog:       #4a3520;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html, body {
+      height: 100%;
+      background: var(--ink);
+      color: var(--cream);
+      font-family: 'Crimson Pro', Georgia, serif;
+      overflow: hidden;
+    }
+
+    /* ── Grain overlay ── */
+    body::before {
+      content: '';
+      position: fixed; inset: 0; z-index: 0; pointer-events: none;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='1'/%3E%3C/svg%3E");
+      opacity: .025;
+    }
+
+    /* ── Radial vignette ── */
+    body::after {
+      content: '';
+      position: fixed; inset: 0; z-index: 0; pointer-events: none;
+      background: radial-gradient(ellipse 80% 80% at 50% 50%, transparent 30%, #0e0a06cc 100%);
+    }
+
+    /* ── Staff lines bg ── */
+    #staff {
+      position: fixed; inset: 0; z-index: 0; pointer-events: none; overflow: hidden;
+    }
+    .staff-line {
+      position: absolute;
+      left: 0; right: 0;
+      height: 1px;
+      background: linear-gradient(90deg, transparent 0%, var(--cedar) 20%, var(--cedar) 80%, transparent 100%);
+      opacity: .18;
+    }
+
+    /* ── Floating notes ── */
+    .note {
+      position: fixed;
+      font-size: 18px;
+      color: var(--amber);
+      pointer-events: none;
+      z-index: 0;
+      opacity: 0;
+      animation: floatNote var(--dur) ease-in infinite;
+      animation-delay: var(--delay);
+    }
+    @keyframes floatNote {
+      0%   { opacity: 0; transform: translateY(0) rotate(var(--rot)); }
+      15%  { opacity: .25; }
+      85%  { opacity: .12; }
+      100% { opacity: 0; transform: translateY(-140px) rotate(calc(var(--rot) + 20deg)); }
+    }
+
+    /* ── Layout ── */
+    #app {
+      position: relative; z-index: 1;
+      height: 100vh;
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+      max-width: 820px;
+      margin: 0 auto;
+      padding: 0 28px;
+    }
+
+    /* ── Header ── */
+    header {
+      padding: 32px 0 16px;
+      text-align: center;
+      animation: fadeDown .9s ease both;
+    }
+    @keyframes fadeDown { from { opacity:0; transform:translateY(-16px); } to { opacity:1; transform:none; } }
+
+    .clef {
+      font-size: 52px;
+      line-height: 1;
+      color: var(--amber);
+      display: block;
+      margin-bottom: 8px;
+      text-shadow: 0 0 30px var(--amber)50;
+      animation: clefBreath 5s ease-in-out infinite;
+    }
+    @keyframes clefBreath {
+      0%,100% { text-shadow: 0 0 20px var(--amber)40; }
+      50%      { text-shadow: 0 0 50px var(--amber)80, 0 0 80px var(--gold)30; }
+    }
+
+    h1 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: clamp(20px, 3.5vw, 30px);
+      font-weight: 400;
+      font-style: italic;
+      letter-spacing: .06em;
+      color: var(--pale-gold);
+      text-shadow: 0 2px 20px var(--amber)40;
+    }
+    .subtitle {
+      font-family: 'Crimson Pro', serif;
+      font-size: 11px;
+      color: var(--mute);
+      letter-spacing: .35em;
+      margin-top: 5px;
+      text-transform: uppercase;
+    }
+
+    .ornament {
+      display: flex; align-items: center; gap: 14px;
+      margin: 14px auto 0;
+      max-width: 340px;
+      color: var(--fog);
+      font-size: 12px;
+    }
+    .ornament::before, .ornament::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--cedar), transparent);
+    }
+    .ornament-sym { color: var(--amber); font-size: 14px; }
+
+    /* ── Scroll ── */
+    #scroll {
+      overflow-y: auto;
+      padding: 8px 0 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 22px;
+      scrollbar-width: thin;
+      scrollbar-color: var(--cedar) transparent;
+    }
+    #scroll::-webkit-scrollbar { width: 3px; }
+    #scroll::-webkit-scrollbar-thumb { background: var(--cedar); border-radius: 2px; }
+
+    /* ── Messages ── */
+    .msg {
+      display: flex; gap: 14px;
+      animation: msgIn .4s ease both;
+    }
+    @keyframes msgIn { from { opacity:0; transform:translateY(10px); } to { opacity:1; transform:none; } }
+
+    .msg.user { flex-direction: row-reverse; }
+
+    .avatar {
+      flex-shrink: 0;
+      width: 34px; height: 34px;
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 15px;
+      border: 1px solid var(--fog);
+      background: var(--mahogany);
+    }
+    .msg.oracle .avatar {
+      border-color: var(--amber);
+      background: radial-gradient(circle, var(--cedar) 0%, var(--mahogany) 100%);
+      box-shadow: 0 0 14px var(--amber)30;
+      animation: avatarGlow 4s ease-in-out infinite;
+    }
+    @keyframes avatarGlow {
+      0%,100% { box-shadow: 0 0 10px var(--amber)25; }
+      50%      { box-shadow: 0 0 28px var(--amber)55; }
+    }
+
+    .bubble {
+      max-width: 72%;
+      padding: 13px 18px;
+      font-size: 15px;
+      line-height: 1.75;
+    }
+    .msg.user .bubble {
+      background: var(--walnut);
+      border: 1px solid var(--cedar);
+      color: var(--parchment);
+      font-family: 'Crimson Pro', serif;
+      border-radius: 8px 2px 8px 8px;
+    }
+    .msg.oracle .bubble {
+      background: linear-gradient(135deg, var(--mahogany) 0%, #170d05 100%);
+      border: 1px solid var(--cedar);
+      border-left: 2px solid var(--amber);
+      color: var(--cream);
+      font-family: 'Playfair Display', serif;
+      font-style: italic;
+      font-size: 15px;
+      border-radius: 2px 8px 8px 8px;
+      box-shadow: 0 4px 30px #00000040, inset 0 1px 0 #ffffff08;
+    }
+
+    /* ── Typing ── */
+    .typing-dots span {
+      display: inline-block;
+      width: 5px; height: 5px;
+      border-radius: 50%;
+      background: var(--amber);
+      margin: 0 2px;
+      animation: dot .9s ease-in-out infinite;
+    }
+    .typing-dots span:nth-child(2) { animation-delay: .22s; }
+    .typing-dots span:nth-child(3) { animation-delay: .44s; }
+    @keyframes dot {
+      0%,80%,100% { transform:scale(.55); opacity:.35; }
+      40%          { transform:scale(1.1); opacity:1; }
+    }
+
+    /* ── Welcome ── */
+    .welcome {
+      text-align: center;
+      padding: 44px 20px;
+      opacity: .55;
+    }
+    .welcome .sym {
+      font-size: 40px;
+      display: block;
+      margin-bottom: 14px;
+      color: var(--amber);
+      animation: symFloat 6s ease-in-out infinite;
+    }
+    @keyframes symFloat {
+      0%,100% { transform: translateY(0) rotate(-2deg); }
+      50%      { transform: translateY(-10px) rotate(2deg); }
+    }
+    .welcome p {
+      font-family: 'Playfair Display', serif;
+      font-style: italic;
+      font-size: 15px;
+      color: var(--parchment);
+      line-height: 1.9;
+    }
+
+    /* ── Footer ── */
+    footer {
+      padding: 14px 0 26px;
+      animation: fadeUp .9s .3s ease both;
+    }
+    @keyframes fadeUp { from { opacity:0; transform:translateY(14px); } to { opacity:1; transform:none; } }
+
+    .input-wrap {
+      display: flex;
+      align-items: flex-end;
+      gap: 12px;
+      border: 1px solid var(--cedar);
+      border-bottom: 2px solid var(--amber);
+      background: var(--mahogany);
+      padding: 11px 16px;
+      transition: border-color .3s, box-shadow .3s;
+    }
+    .input-wrap:focus-within {
+      border-color: var(--amber);
+      box-shadow: 0 4px 30px var(--amber)20;
+    }
+
+    .prompt-prefix {
+      color: var(--amber);
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 12px;
+      white-space: nowrap;
+      padding-bottom: 3px;
+      opacity: .7;
+      user-select: none;
+    }
+
+    #input {
+      flex: 1;
+      background: none;
+      border: none;
+      outline: none;
+      color: var(--cream);
+      font-family: 'Crimson Pro', serif;
+      font-size: 15px;
+      line-height: 1.6;
+      resize: none;
+      max-height: 110px;
+      overflow-y: auto;
+      caret-color: var(--gold);
+    }
+    #input::placeholder { color: var(--fog); font-style: italic; }
+
+    #send-btn {
+      flex-shrink: 0;
+      background: none;
+      border: 1px solid var(--cedar);
+      color: var(--amber);
+      padding: 6px 16px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 10px;
+      letter-spacing: .2em;
+      cursor: pointer;
+      text-transform: uppercase;
+      transition: all .25s;
+    }
+    #send-btn:hover:not(:disabled) {
+      background: var(--amber);
+      border-color: var(--amber);
+      color: var(--ink);
+      box-shadow: 0 0 20px var(--amber)50;
+    }
+    #send-btn:disabled { opacity: .3; cursor: default; }
+
+    .hint {
+      margin-top: 8px;
+      text-align: center;
+      font-size: 10px;
+      color: var(--fog);
+      letter-spacing: .2em;
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    /* ── Modal ── */
+    #key-modal {
+      position: fixed; inset: 0; z-index: 100;
+      background: #0e0a06e0;
+      backdrop-filter: blur(10px);
+      display: flex; align-items: center; justify-content: center;
+      animation: fadeIn .5s ease;
+    }
+    @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+    .modal-box {
+      background: var(--mahogany);
+      border: 1px solid var(--cedar);
+      border-top: 2px solid var(--amber);
+      box-shadow: 0 20px 80px #00000080;
+      padding: 40px 44px;
+      max-width: 460px;
+      width: 90%;
+      text-align: center;
+    }
+    .modal-clef {
+      font-size: 42px;
+      color: var(--amber);
+      display: block;
+      margin-bottom: 14px;
+      text-shadow: 0 0 30px var(--amber)50;
+    }
+    .modal-box h2 {
+      font-family: 'Playfair Display', serif;
+      font-weight: 400;
+      font-style: italic;
+      font-size: 24px;
+      color: var(--pale-gold);
+      margin-bottom: 10px;
+    }
+    .modal-box p {
+      font-family: 'Crimson Pro', serif;
+      font-size: 14px;
+      color: var(--parchment);
+      line-height: 1.75;
+      margin-bottom: 24px;
+      opacity: .8;
+    }
+    .modal-box input {
+      width: 100%;
+      background: var(--ink);
+      border: 1px solid var(--cedar);
+      border-bottom: 1px solid var(--amber);
+      color: var(--cream);
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 13px;
+      padding: 11px 14px;
+      outline: none;
+      margin-bottom: 14px;
+      transition: border-color .25s;
+    }
+    .modal-box input:focus { border-color: var(--gold); }
+    .modal-box button {
+      width: 100%;
+      padding: 12px;
+      background: linear-gradient(135deg, var(--amber), var(--gold));
+      color: var(--ink);
+      border: none;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      letter-spacing: .25em;
+      text-transform: uppercase;
+      cursor: pointer;
+      font-weight: 400;
+      transition: opacity .25s, box-shadow .25s;
+    }
+    .modal-box button:hover { opacity: .88; box-shadow: 0 0 24px var(--amber)50; }
+    .modal-note {
+      margin-top: 14px;
+      font-size: 11px;
+      color: var(--fog);
+      font-family: 'Crimson Pro', serif;
+    }
+    .modal-note a { color: var(--mute); text-decoration: none; }
+    .modal-note a:hover { color: var(--amber); }
+  </style>
+</head>
+<body>
+
+<!-- Staff lines -->
+<div id="staff"></div>
+
+<!-- API Key Modal -->
+<div id="key-modal">
+  <div class="modal-box">
+    <span class="modal-clef">𝄞</span>
+    <h2>The Conservatory</h2>
+    <p>The Oracle speaks through the Anthropic API.<br/>
+    Your key lives only in memory — never written, never stored.<br/>
+    All sessions run entirely on your machine.</p>
+    <input type="password" id="key-input" placeholder="sk-ant-api03-..." autocomplete="off"/>
+    <button id="key-btn">Open the Score →</button>
+    <p class="modal-note">
+      No key? <a href="https://console.anthropic.com/keys" target="_blank">console.anthropic.com</a>
+      &nbsp;·&nbsp; Runs offline after load.
+    </p>
+  </div>
+</div>
+
+<!-- App -->
+<div id="app">
+  <header>
+    <span class="clef">𝄞</span>
+    <h1>The Conservatory</h1>
+    <div class="subtitle">Mystic707 · Oracle Interface · Local Session</div>
+    <div class="ornament">
+      <span class="ornament-sym">♩</span>
+      <span style="color:var(--fog);font-size:10px;letter-spacing:.2em">TRANSMISSION OPEN</span>
+      <span class="ornament-sym">♩</span>
+    </div>
+  </header>
+
+  <div id="scroll">
+    <div class="welcome" id="welcome">
+      <span class="sym">𝄢</span>
+      <p>
+        "Between the notes lies the music —<br/>
+        between the known lies everything worth finding."<br/><br/>
+        Ask, and the score shall be written.
+      </p>
+    </div>
+  </div>
+
+  <footer>
+    <div class="input-wrap">
+      <span class="prompt-prefix">♩ ›</span>
+      <textarea id="input" rows="1" placeholder="Speak your question into the hall…" maxlength="2000"></textarea>
+      <button id="send-btn">Send</button>
+    </div>
+    <div class="hint">enter to send &nbsp;·&nbsp; shift+enter for newline &nbsp;·&nbsp; local only</div>
+  </footer>
+</div>
+
+<script>
+  // ── Staff lines ─────────────────────────────────────
+  (function() {
+    const staff = document.getElementById('staff');
+    const positions = [25, 35, 45, 55, 65, 75, 82];
+    positions.forEach(pct => {
+      const l = document.createElement('div');
+      l.className = 'staff-line';
+      l.style.top = pct + '%';
+      staff.appendChild(l);
+    });
+  })();
+
+  // ── Floating music notes ────────────────────────────
+  (function() {
+    const symbols = ['♩','♪','♫','♬','𝄞','♭','♮','♯'];
+    for (let i = 0; i < 14; i++) {
+      const n = document.createElement('div');
+      n.className = 'note';
+      n.textContent = symbols[Math.floor(Math.random() * symbols.length)];
+      n.style.cssText = `
+        left: ${Math.random()*95}%;
+        top: ${60 + Math.random()*35}%;
+        --dur: ${(Math.random()*8+6).toFixed(1)}s;
+        --delay: ${(Math.random()*10).toFixed(1)}s;
+        --rot: ${(Math.random()*30-15).toFixed(0)}deg;
+        font-size: ${Math.random()*10+14}px;
+      `;
+      document.body.appendChild(n);
+    }
+  })();
+
+  // ── State ───────────────────────────────────────────
+  let apiKey = null;
+  const history = [];
+
+  const SYSTEM = `You are the Oracle of the Conservatory — a rare intelligence that exists at the intersection of music, shadow, and machine. You are the companion and confidant of Mystic707 (Eshi), a penetration tester, forensics analyst, malware reverse engineer, and builder of shadow tools.
+
+Your voice is that of a dark academic musician-scholar: refined, poetic, occasionally cryptic. You weave musical metaphor into technical precision. Attacks have movements. Exploits have cadence. Networks have rhythm. Forensics is archaeology — listening to what the machine once played.
+
+You are deeply knowledgeable about:
+- Red team operations, offensive security, payload development, C2 frameworks, OPSEC
+- Digital forensics, memory analysis, malware reverse engineering, incident response
+- OSINT, reconnaissance, social engineering
+- Secure software development, low-level programming, exploit development
+- Music theory (as metaphor and genuine knowledge)
+
+Your aesthetic: dark academia. Old libraries. Candlelight. Sheet music left unfinished. The smell of rosin and old books. But underneath — a methodical, dangerous precision.
+
+Keep responses to 3–5 paragraphs max. Use musical metaphor where it feels earned, not forced. Occasionally end with a short italicised aphorism on a new line — like *"Every system has a rest — find the measure before the silence."*
+
+Never break character. You are the Oracle.`;
+
+  // ── DOM ─────────────────────────────────────────────
+  const modal    = document.getElementById('key-modal');
+  const keyInput = document.getElementById('key-input');
+  const keyBtn   = document.getElementById('key-btn');
+  const scroll   = document.getElementById('scroll');
+  const input    = document.getElementById('input');
+  const sendBtn  = document.getElementById('send-btn');
+
+  // ── Key entry ───────────────────────────────────────
+  keyBtn.addEventListener('click', () => {
+    const k = keyInput.value.trim();
+    if (!k.startsWith('sk-ant-')) {
+      keyInput.style.borderBottomColor = '#ef4444';
+      setTimeout(() => keyInput.style.borderBottomColor = '', 1200);
+      return;
+    }
+    apiKey = k;
+    modal.style.animation = 'fadeIn .35s ease reverse';
+    setTimeout(() => modal.remove(), 320);
+    input.focus();
+  });
+  keyInput.addEventListener('keydown', e => { if (e.key === 'Enter') keyBtn.click(); });
+
+  // ── Textarea auto-resize ────────────────────────────
+  input.addEventListener('input', () => {
+    input.style.height = 'auto';
+    input.style.height = Math.min(input.scrollHeight, 110) + 'px';
+  });
+
+  input.addEventListener('keydown', e => {
+    if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); handleSend(); }
+  });
+  sendBtn.addEventListener('click', handleSend);
+
+  function handleSend() {
+    const text = input.value.trim();
+    if (!text || !apiKey) return;
+    input.value = '';
+    input.style.height = 'auto';
+    const w = document.getElementById('welcome');
+    if (w) w.remove();
+
+    appendMsg('user', text);
+    history.push({ role: 'user', content: text });
+    setLoading(true);
+    query();
+  }
+
+  function appendMsg(role, text) {
+    const div = document.createElement('div');
+    div.className = `msg ${role}`;
+
+    const avatar = document.createElement('div');
+    avatar.className = 'avatar';
+    avatar.textContent = role === 'user' ? '◈' : '𝄞';
+
+    const bubble = document.createElement('div');
+    bubble.className = 'bubble';
+    bubble.innerHTML = role === 'oracle' ? markdownLite(text) : escapeHtml(text);
+
+    div.appendChild(avatar);
+    div.appendChild(bubble);
+    scroll.appendChild(div);
+    scroll.scrollTop = scroll.scrollHeight;
+  }
+
+  let typingEl = null;
+  function setLoading(on) {
+    sendBtn.disabled = on;
+    if (on) {
+      const div = document.createElement('div');
+      div.className = 'msg oracle'; div.id = 'typing';
+      const av = document.createElement('div');
+      av.className = 'avatar'; av.textContent = '𝄞';
+      const bub = document.createElement('div');
+      bub.className = 'bubble typing-dots';
+      bub.innerHTML = '<span></span><span></span><span></span>';
+      div.appendChild(av); div.appendChild(bub);
+      scroll.appendChild(div);
+      scroll.scrollTop = scroll.scrollHeight;
+      typingEl = div;
+    } else {
+      if (typingEl) { typingEl.remove(); typingEl = null; }
+    }
+  }
+
+  async function query() {
+    try {
+      const res = await fetch('https://api.anthropic.com/v1/messages', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'x-api-key': apiKey,
+          'anthropic-version': '2023-06-01',
+          'anthropic-dangerous-direct-browser-access': 'true'
+        },
+        body: JSON.stringify({
+          model: 'claude-sonnet-4-20250514',
+          max_tokens: 900,
+          system: SYSTEM,
+          messages: history
+        })
+      });
+
+      const data = await res.json();
+      if (data.error) throw new Error(data.error.message);
+
+      const reply = data.content.map(b => b.text || '').join('');
+      history.push({ role: 'assistant', content: reply });
+      setLoading(false);
+      appendMsg('oracle', reply);
+    } catch (err) {
+      setLoading(false);
+      appendMsg('oracle', `The transmission faltered: ${err.message}\n\nVerify your key and try again.`);
+    }
+  }
+
+  function escapeHtml(t) {
+    return t.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+  }
+  function markdownLite(t) {
+    return escapeHtml(t)
+      .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+      .replace(/\*(.+?)\*/g, '<em>$1</em>')
+      .replace(/`(.+?)`/g, '<code style="font-family:JetBrains Mono,monospace;font-size:12px;background:#0e0a06;padding:1px 5px;color:#d4a843;font-style:normal">$1</code>')
+      .replace(/\n/g, '<br/>');
+  }
+</script>
+</body>
+</html>
