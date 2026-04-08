@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:06000f,30:120025,70:1e0040,100:06000f&height=300&section=header&text=MYSTIC707&fontSize=90&fontColor=c4b5fd&animation=twinkling&fontAlignY=42&desc=Penetration%20Tester%20%C2%B7%20Forensics%20Analyst%20%C2%B7%20Builder%20of%20Shadows&descSize=16&descAlignY=60&descAlign=50"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0e0a06,30:1a0f06,70:2c1a0e,100:0e0a06&height=280&section=header&text=MYSTIC707&fontSize=86&fontColor=d4a843&animation=fadeIn&fontAlignY=44&desc=Penetration+Tester+·+Forensics+Analyst+·+Builder+of+Shadows&descSize=15&descAlignY=62&descAlign=50"/>
 
 </div>
 
@@ -8,7 +8,7 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=14&duration=3500&pause=1000&color=8B5CF6&center=true&vCenter=true&width=560&lines=Red+team+operator+%7C+Blue+team+thinker.;I+break+systems+to+understand+them.;%22The+labyrinth+always+has+a+center.%22;Currently+building%3A+RavenTrace+%E2%86%92" />
+<img src="https://readme-typing-svg.demolab.com?font=Playfair+Display&weight=400&size=15&duration=4000&pause=1200&color=C8923A&center=true&vCenter=true&width=600&lines=Red+team+operator+%7C+Blue+team+thinker.;I+break+systems+to+understand+them.;Between+the+notes+lies+everything+worth+finding.;Currently+composing%3A+RavenTrace+%E2%86%92" />
 
 </div>
 
@@ -17,11 +17,12 @@
 <div align="center">
 
 ```
-╔══════════════════════════════════════════════════════════╗
-║  "I am the guide between thresholds —                    ║
-║   what is known and what remains hidden."                ║
-║                                        — Hermes          ║
-╚══════════════════════════════════════════════════════════╝
+┌─────────────────────────────────────────────────────────┐
+│                                                         │
+│   "Every system has a rest —                            │
+│    find the measure before the silence."                │
+│                                                         │
+└─────────────────────────────────────────────────────────┘
 ```
 
 </div>
@@ -30,9 +31,9 @@
 
 ---
 
-## `$ whoami`
+## &nbsp; ♩ &nbsp; whoami
 
-<img align="right" width="360" src="https://github-readme-stats.vercel.app/api?username=seventyoseven&show_icons=true&theme=tokyonight&hide_border=true&bg_color=06000f&title_color=c4b5fd&icon_color=8B5CF6&text_color=a78bfa&ring_color=7c3aed&custom_title=System+Diagnostics&rank_icon=github&include_all_commits=true"/>
+<img align="right" width="360" src="https://github-readme-stats.vercel.app/api?username=seventyoseven&show_icons=true&hide_border=true&bg_color=0e0a06&title_color=d4a843&icon_color=c8923a&text_color=d9c9a3&ring_color=c8923a&custom_title=Field+Diagnostics&rank_icon=github&include_all_commits=true"/>
 
 ```yaml
 operator   : Mystic707
@@ -40,24 +41,27 @@ alias      : Eshi
 clearance  : ACTIVE
 vector     : [REDACTED]
 
-role:
-  - Red Team Operator
+disciplines:
+  - Red Team Operations
   - Digital Forensics & Incident Response
   - Malware Analysis & Reverse Engineering
-  - Secure Software Developer
+  - Secure Software Development
 
-active_ops:
-  building  : RavenTrace — recon & payload framework
+current:
+  composing : RavenTrace — recon & payload framework
   studying  : Advanced exploit development
   reading   : The Art of Intrusion — Kevin Mitnick
-  listening : [ see below ]
+  listening : [ always something ]
 ```
+
+> *The attacker and the defender are mirrors of the same mind.*
+> *So too the musician and the listener.*
 
 <br clear="right"/>
 
 ---
 
-## `$ cat /skills/arsenal`
+## &nbsp; 𝄞 &nbsp; arsenal
 
 <br>
 
@@ -77,24 +81,24 @@ active_ops:
 
 **— Offense —**
 
-![Kali Linux](https://img.shields.io/badge/Kali_Linux-1793D1?style=flat-square&logo=kali-linux&logoColor=white)
-![Metasploit](https://img.shields.io/badge/Metasploit-2596CD?style=flat-square&logoColor=white)
-![Cobalt Strike](https://img.shields.io/badge/Cobalt_Strike-c026d3?style=flat-square&logoColor=white)
-![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=flat-square&logoColor=white)
-![Nmap](https://img.shields.io/badge/Nmap-4A90D9?style=flat-square&logoColor=white)
-![RavenTrace](https://img.shields.io/badge/RavenTrace-7c3aed?style=flat-square&logoColor=white)
-![OSINT Framework](https://img.shields.io/badge/OSINT_Framework-4b0082?style=flat-square&logoColor=white)
-![Impacket](https://img.shields.io/badge/Impacket-1a1a2e?style=flat-square&logoColor=white)
+![Kali Linux](https://img.shields.io/badge/Kali_Linux-1a0f06?style=flat-square&logo=kali-linux&logoColor=d4a843)
+![Metasploit](https://img.shields.io/badge/Metasploit-1a0f06?style=flat-square&logoColor=d4a843&label=Metasploit&color=2c1a0e&labelColor=1a0f06)
+![Cobalt Strike](https://img.shields.io/badge/Cobalt_Strike-2c1a0e?style=flat-square&logoColor=d4a843)
+![Burp Suite](https://img.shields.io/badge/Burp_Suite-2c1a0e?style=flat-square&logoColor=c8923a)
+![Nmap](https://img.shields.io/badge/Nmap-1a0f06?style=flat-square&logoColor=d4a843)
+![RavenTrace](https://img.shields.io/badge/RavenTrace-3d2514?style=flat-square&logoColor=d4a843)
+![OSINT Framework](https://img.shields.io/badge/OSINT_Framework-2c1a0e?style=flat-square&logoColor=c8923a)
+![Impacket](https://img.shields.io/badge/Impacket-1a0f06?style=flat-square&logoColor=d4a843)
 
 **— Defense —**
 
-![Splunk](https://img.shields.io/badge/Splunk-000000?style=flat-square&logo=splunk&logoColor=white)
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
-![Volatility](https://img.shields.io/badge/Volatility-6d28d9?style=flat-square&logoColor=white)
-![Autopsy](https://img.shields.io/badge/Autopsy-8B0000?style=flat-square&logoColor=white)
-![Wazuh](https://img.shields.io/badge/Wazuh-005571?style=flat-square&logoColor=white)
-![Zeek](https://img.shields.io/badge/Zeek-005f87?style=flat-square&logoColor=white)
-![YARA](https://img.shields.io/badge/YARA-222222?style=flat-square&logoColor=white)
+![Splunk](https://img.shields.io/badge/Splunk-1a0f06?style=flat-square&logo=splunk&logoColor=d4a843)
+![Wireshark](https://img.shields.io/badge/Wireshark-1a0f06?style=flat-square&logo=wireshark&logoColor=c8923a)
+![Volatility](https://img.shields.io/badge/Volatility-2c1a0e?style=flat-square&logoColor=d4a843)
+![Autopsy](https://img.shields.io/badge/Autopsy-3d2514?style=flat-square&logoColor=c8923a)
+![Wazuh](https://img.shields.io/badge/Wazuh-1a0f06?style=flat-square&logoColor=d4a843)
+![Zeek](https://img.shields.io/badge/Zeek-2c1a0e?style=flat-square&logoColor=c8923a)
+![YARA](https://img.shields.io/badge/YARA-1a0f06?style=flat-square&logoColor=d4a843)
 
 **— Infrastructure & Creative —**
 
@@ -106,7 +110,7 @@ active_ops:
 
 ---
 
-## `$ ls ./operations`
+## &nbsp; 𝄢 &nbsp; operations
 
 <br>
 
@@ -116,14 +120,14 @@ active_ops:
 
 ### 🔴 &nbsp; Red Team
 
-> *"Know the enemy and know yourself."*
+> *"Know the instrument before you play it."*
 
 - Reconnaissance & OSINT Automation
 - Custom Payload & C2 Development
 - Social Engineering Campaigns
 - Privilege Escalation & Lateral Movement
 - Anti-Detection, Evasion & OPSEC
-- Zero-Day Research & Exploit Dev
+- Zero-Day Research & Exploit Development
 
 **Primary toolkit:** `RavenTrace` · `Metasploit` · `Cobalt Strike`
 
@@ -132,7 +136,7 @@ active_ops:
 
 ### 🔵 &nbsp; Blue Team
 
-> *"The best defense understands offense."*
+> *"The best defense hears what the attacker plays."*
 
 - SIEM Management & Log Analysis
 - Malware Reverse Engineering
@@ -151,14 +155,14 @@ active_ops:
 
 ---
 
-## `$ git log --projects`
+## &nbsp; ♬ &nbsp; compositions
 
 <br>
 
 <div align="center">
 
 <a href="https://github.com/seventyoseven/RavenTrace">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=seventyoseven&repo=RavenTrace&theme=tokyonight&hide_border=true&bg_color=06000f&title_color=c4b5fd&icon_color=8B5CF6&text_color=a78bfa"/>
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=seventyoseven&repo=RavenTrace&hide_border=true&bg_color=0e0a06&title_color=d4a843&icon_color=c8923a&text_color=d9c9a3"/>
 </a>
 
 </div>
@@ -167,7 +171,7 @@ active_ops:
 
 <div align="center">
 
-| `project` | `description` | `stack` |
+| `composition` | `movement` | `instruments` |
 |:--|:--|:--|
 | **RavenTrace** | Advanced red team recon & payload framework | Python · C2 · OPSEC |
 | **Crypto Dashboard** | Real-time portfolio & risk analysis platform | React · Python · APIs |
@@ -178,21 +182,21 @@ active_ops:
 
 ---
 
-## `$ uptime --activity`
+## &nbsp; ♭ &nbsp; activity
 
 <br>
 
 <div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=seventyoseven&theme=tokyonight&hide_border=true&background=06000f&stroke=6d28d9&ring=c4b5fd&fire=a78bfa&currStreakLabel=c4b5fd&sideLabels=a78bfa&dates=6d28d9"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=seventyoseven&hide_border=true&background=0e0a06&stroke=3d2514&ring=d4a843&fire=c8923a&currStreakLabel=d4a843&sideLabels=d9c9a3&dates=5c3420"/>
 
 <br><br>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=seventyoseven&theme=tokyo-night&bg_color=06000f&color=c4b5fd&line=7c3aed&point=a78bfa&area=true&hide_border=true"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=seventyoseven&bg_color=0e0a06&color=d4a843&line=c8923a&point=d4a843&area=true&hide_border=true"/>
 
 <br>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=seventyoseven&layout=compact&theme=tokyonight&hide_border=true&bg_color=06000f&title_color=c4b5fd&text_color=a78bfa&custom_title=Language+Distribution"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=seventyoseven&layout=compact&hide_border=true&bg_color=0e0a06&title_color=d4a843&text_color=d9c9a3&custom_title=Language+Score"/>
 
 </div>
 
@@ -200,11 +204,11 @@ active_ops:
 
 ---
 
-## `$ mpd --now-playing`
+## &nbsp; 𝅘𝅥𝅮 &nbsp; now playing
 
 <div align="center">
 
-[![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=31fju3jxoivxpmse4x5zqvyg7eoi&cover_image=true&theme=novatorem&show_offline=false&background_color=06000f&interchange=false)](https://github.com/kittinan/spotify-github-profile)
+[![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=31fju3jxoivxpmse4x5zqvyg7eoi&cover_image=true&theme=novatorem&show_offline=false&background_color=0e0a06&interchange=false)](https://github.com/kittinan/spotify-github-profile)
 
 </div>
 
@@ -212,21 +216,21 @@ active_ops:
 
 ---
 
-## `$ nc -l oracle.mystic707`
+## &nbsp; 𝄞 &nbsp; the conservatory
 
 <br>
 
 <div align="center">
 
-*The messenger stands at the threshold. Those who knock are answered.*
+*The hall is open. Those who step inside are answered.*
 
 <br>
 
-[![Oracle](https://img.shields.io/badge/%F0%9F%94%AE%20%20Consult%20the%20Oracle%20%E2%86%92-7c3aed?style=for-the-badge&logoColor=white)](https://mystic707-oracle.vercel.app)
+[![Conservatory](https://img.shields.io/badge/𝄞%20%20Enter%20the%20Conservatory%20→-c8923a?style=for-the-badge&logoColor=white&labelColor=1a0f06&color=2c1a0e)](https://mystic707-oracle.vercel.app)
 
 <br>
 
-*"Even gods consult the oracle before stepping into the unknown."*
+*"Even the most seasoned player studies the score before performing."*
 
 </div>
 
@@ -234,19 +238,19 @@ active_ops:
 
 ---
 
-## `$ establish --connection`
+## &nbsp; ♮ &nbsp; reach out
 
 <br>
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-c4b5fd?style=for-the-badge&logo=linkedin&logoColor=c4b5fd&color=1a003a&labelColor=0d0026)](https://www.linkedin.com/in/eshaal-lodhi/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-d4a843?style=for-the-badge&logo=linkedin&logoColor=d4a843&color=2c1a0e&labelColor=1a0f06)](https://www.linkedin.com/in/eshaal-lodhi/)
 &nbsp;
-[![Email](https://img.shields.io/badge/Email-Reach%20Out-c4b5fd?style=for-the-badge&logo=gmail&logoColor=c4b5fd&color=1a003a&labelColor=0d0026)](mailto:lodhieshaal@gmail.com)
+[![Email](https://img.shields.io/badge/Email-Write-d4a843?style=for-the-badge&logo=gmail&logoColor=d4a843&color=2c1a0e&labelColor=1a0f06)](mailto:lodhieshaal@gmail.com)
 &nbsp;
-[![Discord](https://img.shields.io/badge/Discord-Join-c4b5fd?style=for-the-badge&logo=discord&logoColor=c4b5fd&color=1a003a&labelColor=0d0026)](#)
+[![Discord](https://img.shields.io/badge/Discord-Join-d4a843?style=for-the-badge&logo=discord&logoColor=d4a843&color=2c1a0e&labelColor=1a0f06)](#)
 &nbsp;
-[![Twitter](https://img.shields.io/badge/Twitter-Follow-c4b5fd?style=for-the-badge&logo=x&logoColor=c4b5fd&color=1a003a&labelColor=0d0026)](#)
+[![Twitter](https://img.shields.io/badge/Twitter-Follow-d4a843?style=for-the-badge&logo=x&logoColor=d4a843&color=2c1a0e&labelColor=1a0f06)](#)
 
 <br>
 
@@ -256,9 +260,9 @@ PGP · 0x1337DEADBEEF     lodhieshaal@gmail.com
 
 <br>
 
-<img src="https://komarev.com/ghpvc/?username=seventyoseven&label=Visitors&color=7c3aed&style=flat-square&labelColor=06000f"/>
+<img src="https://komarev.com/ghpvc/?username=seventyoseven&label=Visitors&color=c8923a&style=flat-square&labelColor=0e0a06"/>
 &nbsp;&nbsp;
-<img src="https://img.shields.io/github/followers/seventyoseven?label=Followers&style=flat-square&color=7c3aed&labelColor=06000f"/>
+<img src="https://img.shields.io/github/followers/seventyoseven?label=Followers&style=flat-square&color=c8923a&labelColor=0e0a06"/>
 
 </div>
 
@@ -270,7 +274,8 @@ PGP · 0x1337DEADBEEF     lodhieshaal@gmail.com
 
 <div align="center">
 
-*"As above, so below — the attacker and the defender are mirrors of the same mind."*
+*"As above, so below —*
+*the attacker and the defender are movements of the same composition."*
 
 </div>
 
@@ -278,13 +283,13 @@ PGP · 0x1337DEADBEEF     lodhieshaal@gmail.com
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:06000f,30:120025,70:1e0040,100:06000f&height=160&section=footer&text=Stay+Curious.+Stay+Secure.&fontSize=22&fontColor=c4b5fd&fontAlignY=65"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0e0a06,40:1a0f06,80:2c1a0e,100:0e0a06&height=150&section=footer&text=Stay+Curious.+Stay+Precise.&fontSize=20&fontColor=d4a843&fontAlignY=65"/>
 
 </div>
 
-<!-- ΩΩΩ HIDDEN TRANSMISSION ΩΩΩ -->
+<!-- ♩ HIDDEN SCORE ♩ -->
 <!--
-  Ἐρμῆς — The Messenger knows the way between worlds.
-  If you found this, you were meant to find it.
+  Between the notes lies the message.
+  If you found this, you were listening.
   lodhieshaal@gmail.com  |  PGP: 0x1337DEADBEEF
 -->
