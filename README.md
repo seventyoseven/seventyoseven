@@ -15,17 +15,11 @@
 <br>
 
 <div align="center">
-
-```
-╔══════════════════════════════════════════════════════════════╗
-║                                                              ║
-║    "I wonder if you know what it means to find your dreams   ║
-║     in a world that ain't always what it seems —            ║
-║     every system has a rest. find the silence before it."   ║
-║                                                              ║
-╚══════════════════════════════════════════════════════════════╝
-```
-
+  <img src="https://media.giphy.com/media/077i6AULCXc0FKTj9s/giphy.gif" width="110" alt="anime study"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://media.giphy.com/media/l3vR9gBKDEMhHn8Pm/giphy.gif" width="110" alt="anime night"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://media.giphy.com/media/077i6AULCXc0FKTj9s/giphy.gif" width="110" alt="anime study"/>
 </div>
 
 <br>
@@ -111,7 +105,7 @@
 <br>
 
 ![Kali Linux](https://img.shields.io/badge/Kali_Linux-13100a?style=flat-square&logo=kalilinux&logoColor=c9a84c)
-![Metasploit](https://img.shields.io/badge/Metasploit-1a1108?style=flat-square&logoColor=b8935a&label=&color=1a1108&labelColor=13100a)
+![Metasploit](https://img.shields.io/badge/Metasploit-1a1108?style=flat-square&logoColor=b8935a)
 ![Cobalt Strike](https://img.shields.io/badge/Cobalt_Strike-13100a?style=flat-square&logoColor=c9a84c)
 ![Burp Suite](https://img.shields.io/badge/Burp_Suite-1a1108?style=flat-square&logo=burpsuite&logoColor=b8935a)
 ![Nmap](https://img.shields.io/badge/Nmap-13100a?style=flat-square&logoColor=c9a84c)
@@ -157,6 +151,12 @@
 <br>
 
 ## `[ operations ]`
+
+<br>
+
+<div align="center">
+  <img src="https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif" width="90" alt="focus"/>
+</div>
 
 <br>
 
@@ -276,23 +276,19 @@
 
 <br>
 
-## `[ the conservatory ]`
+## `[ little wanderer ]` &nbsp; ✦ *click to play*
 
 <br>
 
 <div align="center">
 
-*The hall is open. Those who step inside will be answered.*
+*a little sprite lives here — click anywhere in the field and she'll walk to you.*
 
 <br>
 
-[![Enter the Conservatory](https://img.shields.io/badge/◈%20%20Enter%20the%20Conservatory%20→-c9a84c?style=for-the-badge&logoColor=white&labelColor=13100a&color=2a1a0c)](https://mystic707-oracle.vercel.app)
+[![wanderer](https://img.shields.io/badge/▶%20open%20the%20wanderer%20→-2a1a0c?style=for-the-badge&labelColor=13100a&color=2a1a0c&logoColor=c9a84c)](https://seventyoseven.github.io/seventyoseven/wanderer/)
 
-<br>
-
-```
-"Even the most seasoned player studies the score before performing."
-```
+*deploy [`wanderer/index.html`](./wanderer/index.html) via GitHub Pages to activate*
 
 </div>
 
@@ -308,6 +304,10 @@
 
 <div align="center">
 
+<img src="https://media.giphy.com/media/077i6AULCXc0FKTj9s/giphy.gif" width="90" alt="anime"/>
+
+<br><br>
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-1a1108?style=for-the-badge&logo=linkedin&logoColor=c9a84c)](https://www.linkedin.com/in/eshaal-lodhi/)
 &nbsp;
 [![Email](https://img.shields.io/badge/Email-1a1108?style=for-the-badge&logo=gmail&logoColor=c9a84c)](mailto:lodhieshaal@gmail.com)
@@ -316,13 +316,7 @@
 &nbsp;
 [![X](https://img.shields.io/badge/X-1a1108?style=for-the-badge&logo=x&logoColor=c9a84c)](#)
 
-<br>
-
-```
-PGP · 0x1337DEADBEEF     lodhieshaal@gmail.com
-```
-
-<br>
+<br><br>
 
 <img src="https://komarev.com/ghpvc/?username=seventyoseven&label=Observers&color=b8935a&style=flat-square&labelColor=0d0a07"/>
 &nbsp;&nbsp;
@@ -338,24 +332,6 @@ PGP · 0x1337DEADBEEF     lodhieshaal@gmail.com
 
 <div align="center">
 
-```
-       I fly so high,        I still don't know why
-       they said it couldn't be done —
-       but somewhere between the code and the dark,
-       I found my work had just begun.
-```
-
-<br>
-
-*The attacker and defender are movements of the same composition.*
-*As the dreamer and the world are verses of the same song.*
-
-</div>
-
-<br>
-
-<div align="center">
-
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0806,40:130d08,80:1f1209,100:0a0806&height=160&section=footer&text=Stay+Curious.+Stay+Precise.+Dream+Louder.&fontSize=18&fontColor=c9a84c&fontAlignY=65&animation=fadeIn"/>
 
 </div>
@@ -364,5 +340,4 @@ PGP · 0x1337DEADBEEF     lodhieshaal@gmail.com
 <!--
   If you found this, you were listening carefully enough.
   That's already more than most.
-  lodhieshaal@gmail.com  |  PGP: 0x1337DEADBEEF
 -->
