@@ -118,5 +118,13 @@ current     : building RavenTrace — recon & payload framework
 ---
 
 <div align="center">
+
+[![spotify](https://spotify-github-profile.kittinanx.com/api/view?uid=31fju3jxoivxpmse4x5zqvyg7eoi&cover_image=true&theme=novatorem&show_offline=false&background_color=0d0d0d&interchange=false&bar_color=c9a84c&bar_color_cover=false)](https://github.com/kittinan/spotify-github-profile)
+
+</div>
+
+---
+
+<div align="center">
 <sub><code>The attacker and the defender are one mind.</code></sub>
 </div>
